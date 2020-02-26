@@ -46,13 +46,10 @@ public class dz_01 {
         System.out.println(anotherAppleBox.getWeight());
         System.out.println(boxWithApple.getWeight());
 }
-<<<<<<< HEAD
-    private static void replaceItems(Object[] obj, int re1, int re2){
-        Object temp;
-=======
+
     private static <T> void replaceItems(T[] obj, int re1, int re2){
         T temp;
->>>>>>> lesson01
+
         temp=obj[re1];
         obj[re1]=obj[re2];
         obj[re2]=temp;
